@@ -47,7 +47,7 @@ function App() {
             <MyProject 
               title="ระบบสั่งอาหารสำหรับร้านอาหาร"
               description="ระบบจัดการร้านอาหารแบบครบวงจรพร้อมการสั่งอาหารผ่าน QR code การติดตามคำสั่งซื้อแบบเรียลไทม์ และการจัดการสินค้าคงคลัง มีฟีเจอร์การจัดการโต๊ะ การปรับแต่งเมนู และการวิเคราะห์ยอดขาย"
-              image="../img/image2.png"
+              image="/images/image2.png"
               technologies={['React', 'Node.js', 'MySQL', 'Socket.io', 'TypeScript', 'Tailwind CSS']}
               liveLink="https://www.facebook.com/profile.php?id=100018481330637"
               githubLink="https://github.com/example/restaurant-system"
@@ -55,7 +55,7 @@ function App() {
             <MyProject 
               title="ระบบตรวจสอบการชำระเงินอัตโนมัติ"
               description="ระบบตรวจสอบสลิปการโอนเงินอัตโนมัติผ่าน SlipOK API พร้อมการยืนยันการชำระเงินแบบเรียลไทม์ รองรับการตรวจสอบความถูกต้องของสลิป และการจัดการธุรกรรมทางการเงิน"
-              image="../img/image.png"
+              image="/images/image.png"
               technologies={['PHP', 'JavaScript', 'HTML', 'CSS', 'SlipOK API', 'MySQL']}
               liveLink="https://www.facebook.com/profile.php?id=100018481330637"
               githubLink="https://github.com/example/payment-verification"

@@ -14,7 +14,7 @@ const MyProject = ({ title, description, image, technologies, liveLink, githubLi
     <div className="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
       <div className="relative group">
         <img 
-          src={image} 
+          src={`/webpage-thanakit/${image}`} 
           alt={title} 
           className="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300"
         />
